@@ -1,0 +1,11 @@
+framework module PatchFramework {
+  umbrella header "PatchFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module PatchFramework.Swift {
+    header "PatchFramework-Swift.h"
+    requires objc
+}
