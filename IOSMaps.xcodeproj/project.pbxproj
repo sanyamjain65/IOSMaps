@@ -20,6 +20,7 @@
 		D99C740C21FEFA9100692CC4 /* Starscream.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D99C740721FEFA9100692CC4 /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D99C740D21FEFA9100692CC4 /* PatchFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99C740821FEFA9100692CC4 /* PatchFramework.framework */; };
 		D99C740E21FEFA9100692CC4 /* PatchFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D99C740821FEFA9100692CC4 /* PatchFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D9EAE2D42206268E008F4093 /* WeatherDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAE2D32206268E008F4093 /* WeatherDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		D99C740621FEFA9100692CC4 /* SocketIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketIO.framework; path = IOSMaps/Frameworks/SocketIO.framework; sourceTree = "<group>"; };
 		D99C740721FEFA9100692CC4 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = IOSMaps/Frameworks/Starscream.framework; sourceTree = "<group>"; };
 		D99C740821FEFA9100692CC4 /* PatchFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PatchFramework.framework; path = IOSMaps/Frameworks/PatchFramework.framework; sourceTree = "<group>"; };
+		D9EAE2D32206268E008F4093 /* WeatherDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherDetailViewController.swift; sourceTree = "<group>"; };
 		FC57B2FDE309C6EB278AE773 /* Pods_IOSMaps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOSMaps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -132,6 +134,7 @@
 		D97FB8DF21F4646A006C58F5 /* IOSMaps */ = {
 			isa = PBXGroup;
 			children = (
+				D9EAE2D32206268E008F4093 /* WeatherDetailViewController.swift */,
 				D97FB8E021F4646A006C58F5 /* AppDelegate.swift */,
 				D97FB8E221F4646A006C58F5 /* ViewController.swift */,
 				D97FB8E421F4646A006C58F5 /* Main.storyboard */,
@@ -296,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9EAE2D42206268E008F4093 /* WeatherDetailViewController.swift in Sources */,
 				D97FB8E321F4646A006C58F5 /* ViewController.swift in Sources */,
 				D97FB8E121F4646A006C58F5 /* AppDelegate.swift in Sources */,
 			);
